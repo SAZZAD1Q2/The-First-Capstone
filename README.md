@@ -58,11 +58,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [The First Capstone] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**The First Capstone** is a project about a summit. I created this project to apply my efficiency and ability on development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
