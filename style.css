@@ -436,25 +436,21 @@ article .venue {
 }
 
 @media (min-width: 500px) {
-
   .links {
     display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    background: #3e3e3e;
+    padding-right: 40px;
   }
 
-  .links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 5px;
-  background: #3e3e3e;
-  padding-right: 40px;
-  }
-
-  .links li{
+  .links li {
     list-style: none;
- color: #d3d3d3;
- margin-right: 20px;
- font-size: 10px;
+    color: #d3d3d3;
+    margin-right: 20px;
+    font-size: 10px;
   }
 
   .logo {
