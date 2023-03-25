@@ -229,6 +229,15 @@ article .venue {
   color: #fff;
 }
 
+.main_head-style {
+  margin: 0 auto;
+  margin-left: 40vw;
+  margin-top: 10px;
+  width: 40px;
+  height: 0.1px;
+  background-color: #ec5242;
+}
+
 /* feature section start */
 
 .featured-speaker {
