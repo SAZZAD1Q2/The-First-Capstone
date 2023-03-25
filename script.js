@@ -12,21 +12,39 @@ crossMark.addEventListener('click', () => {
   window.location.reload();
 });
 
-/* function mobileMenu() {
-  navLink.classList.toggle('active');
-
-} */
-
-/* toggle.addEventListener('click', () => {
-  navLink.classList.toggle('active');
-  xmark.style.display= 'block';
-}); */
-
 const myProject = [{
   featuredTitle: 'Featured Speakers',
+  img1: 'image/featured_img_1.png',
+  h3: 'Yochai Benkler',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 },
 {
+  img2: 'image/feature-img2.png',
+  h3: 'Ayub Bachchu',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 
+}, {
+  img3: 'image/feature-img3.png',
+  h3: 'Anuradha Paroal',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+}, {
+  img4: 'image/feature-img4.png',
+  h3: 'James Khan',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+}, {
+  img5: 'image/feature-img5.png',
+  h3: 'Abdul Hadi',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+}, {
+  img6: 'image/feature-img6.png',
+  h3: 'Mitali Muckargi',
+  h5: 'Benkler is a renowned professor at Harbard Law School',
+  h6: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
 }];
 
 /* feature speaker section trial */
@@ -41,91 +59,86 @@ function feature() {
  <div class="allFeature">
  <div class="feature-1">
  <div class="featured-img">
-   <img src="image/featured_img_1.png" alt="" />
+   <img src=${myProject[0].img1} alt="" />
  </div>
  <article class="featured-article">
-   <h3>Yochai Benkler</h3>
+   <h3>${myProject[0].h3}</h3>
    <h5 class="feature-desig">
-     Benkler is a renowned professor at Harbard Law School
+   ${myProject[0].h5}
    </h5>
 
    <h6 class="featured-details">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   ${myProject[0].h6}
    </h6>
  </article>
 </div>
 <div class="feature-1">
      <div class="featured-img">
-       <img src="image/feature-img2.png" alt="" />
+       <img src=${myProject[1].img2} alt="" />
      </div>
      <article class="featured-article">
-       <h3>Yochai Benkler</h3>
+       <h3>${myProject[1].h3}</h3>
        <h5 class="feature-desig">
-         Benkler is a renowned professor at Harbard Law School
-       </h5>
+       ${myProject[1].h5}       </h5>
 
        <h6 class="featured-details">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       ${myProject[1].h6}
        </h6>
      </article>
    </div>
    <div class="feature-1">
      <div class="featured-img">
-       <img src="image/feature-img3.png" alt="" />
+       <img src=${myProject[2].img3} alt="" />
      </div>
      <article class="featured-article">
-       <h3>Yochai Benkler</h3>
+       <h3>${myProject[2].h3}</h3>
        <h5 class="feature-desig">
-         Benkler is a renowned professor at Harbard Law School
-       </h5>
+       ${myProject[2].h5}       </h5>
 
        <h6 class="featured-details">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       ${myProject[2].h6}
        </h6>
      </article>
    </div>
    <div class="feature-1">
    <div class="featured-img">
-     <img src="image/feature-img4.png" alt="" />
+     <img src=${myProject[3].img4} alt="" />
    </div>
    <article class="featured-article">
-     <h3>Yochai Benkler</h3>
+     <h3>${myProject[3].h3}</h3>
      <h5 class="feature-desig">
-       Benkler is a renowned professor at Harbard Law School
-     </h5>
+     ${myProject[3].h5}     </h5>
 
      <h6 class="featured-details">
-       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     ${myProject[3].h6}
      </h6>
    </article>
  </div>
  <section class="feature-1">
  <div class="featured-img">
-   <img src="image/feature-img5.png" alt="" />
+   <img src=${myProject[4].img5} alt="" />
  </div>
  <article class="featured-article">
-   <h3>Yochai Benkler</h3>
+   <h3>${myProject[4].h3}</h3>
    <h5 class="feature-desig">
-     Benkler is a renowned professor at Harbard Law School
-   </h5>
+   ${myProject[4].h5}   </h5>
 
    <h6 class="featured-details">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   ${myProject[4].h6}
    </h6>
  </article>
 </section>
 <div class="feature-1">
      <div class="featured-img">
-       <img src="image/feature-img6.png" alt="" />
+       <img src=${myProject[5].img6} alt="" />
      </div>
      <article class="featured-article">
-       <h3>Yochai Benkler</h3>
+       <h3>${myProject[5].h3}</h3>
        <h5 class="feature-desig">
-         Benkler is a renowned professor at Harbard Law School
-       </h5>
+       ${myProject[5].h5}       </h5>
 
        <h6 class="featured-details">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       ${myProject[5].h6}
        </h6>
      </article>
    </div>
