@@ -280,10 +280,16 @@ article .venue {
 .feature-1 .featured-article .feature-desig {
   color: orangered;
   font-size: 12px;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .feature-1 .featured-article .featured-details {
   color: #272a31;
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 12px;
 }
 
