@@ -560,6 +560,14 @@ article .venue {
     width: 18vw;
   }
 
+  .main_head-style {
+    margin-left: 48vw;
+    margin-top: 7px;
+    width: 40px;
+    height: 0.1px;
+    background-color: #ec5242;
+  }
+
   /* feature section */
 
   .allFeature {
