@@ -145,33 +145,3 @@ function feature() {
  </div>`;
 }
 feature();
-/* feature speaker section start */
-
-/* function featureInfo() {
-  const headlineF = document.createElement('h2');
-  headlineF.className = 'featured-headline';
-  headlineF.textContent = myProject[0].featuredTitle;
-  /* featureSpeader.appendChild(headlineF); */
-
-const fImg = document.createElement('img');
-fImg.src = '#';
-/* featureSpeader.appendChild(fImg); */
-
-/*  featureSpeader.innerHTML = `<div class="feature-1">
-<div class="featured-img">
-  <img src="image/featured_img_1.png" alt="" />
-</div>
-<article class="featured-article">
-  <h3>Yochai Benkler</h3>
-  <h5 class="feature-desig">
-    Benkler is a renowned professor at Harbard Law School
-  </h5>
-
-  <h6 class="featured-details">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  </h6>
-</article>
-</div>`;
-}
-
-featureInfo(); */
