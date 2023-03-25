@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://sazzad1q2.github.io/The-First-Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,8 +133,6 @@ You can deploy this project in the github.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Animation]**
 - [ ] **[News-pages]**
