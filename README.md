@@ -124,8 +124,8 @@ You can deploy this project in the github.
 
 👤 **Sazzad**
 
-- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2/githubhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/md-sazzad-hossain-054720257//linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SAZZAD1Q2/The-First-Capstone)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sazzad-hossain-054720257/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
